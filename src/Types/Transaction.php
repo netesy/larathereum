@@ -11,6 +11,7 @@ class Transaction
     public $gasPrice;
     public $value;
     public $nonce;
+    public $chainId;
 
     /**
      * Transaction constructor.
@@ -29,7 +30,8 @@ class Transaction
         int $gas = null,
         int $gasPrice = null,
         $value = null,
-        int $nonce = null
+        int $nonce = null,
+        int $chainId = null
     )
     {
         $this->from = $from;
@@ -39,6 +41,7 @@ class Transaction
         $this->gasPrice = $gasPrice;
         $this->value = $value;
         $this->nonce = $nonce;
+        $this->chainId = $chainId;
     }
 
     public function toArray(): array
@@ -69,6 +72,10 @@ class Transaction
 
         if (!is_null($this->nonce)) {
             $transaction['nonce'] = '0x' . dechex($this->nonce);
+        }
+
+        if (!is_null($this->chainId)) {
+            $transaction['chainId'] = $this->chainId;
         }
 
         return $transaction;
