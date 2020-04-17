@@ -547,7 +547,14 @@ class Util
             if ($method == '0xa9059cbb') {
                 $output[] = 'transfer';
                 $output = array_merge($output, $ethabi->decodeParameters(['address', 'uint256'], $input));
-            } elseif ($method == '0x7532eaac') {
+            }
+            
+            if ($method == '0x7532eaac') {
+                $output[] = 'transferFrom';
+                $output = array_merge($output, $ethabi->decodeParameters(['address', 'address', 'uint256'], $input));
+            }
+            
+            if ($method == '0x23b872dd') {
                 $output[] = 'signedTransfer';
                 $output = array_merge($output, $ethabi->decodeParameters(['address', 'address', 'uint256'], $input));
             }
