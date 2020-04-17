@@ -1,5 +1,5 @@
 {
-  "name": "ranabd36/larathereum",
+  "name": "giftedagent/larathereum",
   "description": "Ethereum Client Library For Laravel",
   "keywords": [
     "ethereum",
@@ -8,13 +8,13 @@
     "smart contract",
     "laravel package"
   ],
-  "homepage": "https://github.com/ranabd36/larathereum",
+  "homepage": "https://github.com/giftedagent/larathereum",
   "license": "MIT",
   "type": "library",
   "authors": [
     {
-      "name": "Ibrahim Al Naz Rana",
-      "email": "ranabd36@gmail.com"
+      "name": "Jun Kawasaki",
+      "email": "jun784@gmail.com"
     }
   ],
   "require": {
