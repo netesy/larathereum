@@ -12,7 +12,7 @@ Laravel ethereum client with ERC20 (smart contract) support.
 You can install the package via composer:
 
 ```bash
-composer require ranabd36/larathereum
+composer require netesy/larathereum
 ```
 
 ## Usage
