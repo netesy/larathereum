@@ -1,5 +1,5 @@
 {
-  "name": "giftedagent/larathereum",
+  "name": "netesy/larathereum",
   "description": "Ethereum Client Library For Laravel",
   "keywords": [
     "ethereum",
@@ -8,7 +8,7 @@
     "smart contract",
     "laravel package"
   ],
-  "homepage": "https://github.com/giftedagent/larathereum",
+  "homepage": "https://github.com/netesy/larathereum",
   "license": "MIT",
   "type": "library",
   "authors": [
