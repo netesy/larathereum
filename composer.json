@@ -24,7 +24,7 @@
   "require": {
     "php": "^7.1",
     "ext-bcmath": "*",
-    "graze/guzzle-jsonrpc": "^3.2",
+    "jackyxie/guzzle-jsonrpc": "^3.2",
     "phlib/base_convert": "^1.0",
     "web3p/rlp": "~0.2.1",
     "web3p/ethereum-util": "~0.1.1",
